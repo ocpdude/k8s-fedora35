@@ -11,7 +11,7 @@
 ### Install
 1. Boot up all of the VM's and update their patches: \
 `dnf update -y`
-2. We're going to install CRI-O along with Kubernetes 1.23 on these machines, each machine will include kubeadm and kubelet; only the first master will include kubectl. After the install is complete, I'll use kubectl from my bastion/workstation. \
+2. We're going to install CRI-O along with Kubernetes 1.23 on these machines, each machine will include kubeadm and kubelet; only the first master will include kubectl. After the install is complete, I'll use kubectl from my bastion/workstation.
 
     a. Create the file to load the modules needed for crio.
     ```
