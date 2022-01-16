@@ -69,6 +69,7 @@
     ```
 
 8. Install Kubernetes (kubeadm/kubelet (kubectl)):
+
     a. Master Nodes:
     ```
     sudo dnf install -y kubelet kubeadm apt-transport-https kubectl --disableexcludes=kubernetes
