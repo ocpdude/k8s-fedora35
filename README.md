@@ -28,7 +28,7 @@
     net.bridge.bridge-nf-call-ip6tables = 1
     EOF
     ```
-3. Apply the firewall rules:
+3. Apply the firewall rules: \
 
     a. Master Nodes:
     ```
